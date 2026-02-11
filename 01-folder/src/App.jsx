@@ -1,13 +1,16 @@
-import {Page} from "./components/page"
+import { Page } from "./components/page";
 
 
-export const App = () => {
+
+function App () {
   return (
-    <div>App
-      <div>
-        <Page/> 
-      </div>
+    <>
+    <div className="App">
+      <h1>Hello World</h1>
     </div>
-
-  )
+    <Page/>
+    </>
+  );
 }
+
+export default App;
