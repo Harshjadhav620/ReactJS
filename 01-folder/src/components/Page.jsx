@@ -1,8 +1,9 @@
 
 export const Page = () => {
+  const name = "Harsh";
   return (
-    <div>page
-        <h1>Harsh jadhav</h1>
+    <div>
+      <h1>Hello {name}</h1>
     </div>
   )
 }
