@@ -7,7 +7,7 @@ function App () {
     <div className="parent">
       <div className="card">
         <div className="top">
-          <img src="https://1000logos.net/wp-content/uploads/2016/10/Amazon-logo-meaning.jpg" alt="Amazon Logo" />
+          <img src="https://www.pngplay.com/wp-content/uploads/3/Amazon-Logo-Transparent-PNG.png" alt="Amazon Logo" />
           <button>Save</button>
 
           <div className="center">
@@ -17,7 +17,7 @@ function App () {
           <div className="bottom">
 
           </div>
-          
+
         </div>
       </div>
     </div>
