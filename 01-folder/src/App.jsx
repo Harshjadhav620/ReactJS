@@ -7,9 +7,10 @@ function App () {
   return (
     <div className="parent">
       <div className="card">
-        <div className="top">
-          <img src="https://www.pngplay.com/wp-content/uploads/3/Amazon-Logo-Transparent-PNG.png" alt="Amazon Logo" />
-          <button>Save <CiBookmark /></button>
+          <div className="top">
+           <img src="https://www.pngplay.com/wp-content/uploads/3/Amazon-Logo-Transparent-PNG.png" alt="Amazon Logo" />
+           <button>Save <CiBookmark /></button>
+          </div>  
 
           <div className="center">
             <h3>Amazon <span>5 days ago</span></h3>
@@ -21,16 +22,15 @@ function App () {
           </div>
 
           <div className="bottom">
-            <hr />
-            <span>$120/hr</span>
-            <span>San Francisco,CA</span>
+            <div>
+              <h3>$120/hr</h3>
+              <p>Mumbai,India</p>
+            </div>
             <button>Apply now</button>
           </div>
-
-        </div>
       </div>
-    </div>
+    </div>  
   );
-}
+} 
 
 export default App; 
