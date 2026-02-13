@@ -15,7 +15,16 @@ body {
     height: 100vh;
     width: 100%;
     background-color: #111;
+    padding: 20px;
 }
-#heading {
-    color: white;
+.card {
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border-radius: 30px;
+}
+img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
 }
