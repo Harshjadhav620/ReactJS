@@ -5,7 +5,7 @@ import { Page } from "./components/page";
 function App () {
   return (
     <>
-    <div>
+    <div className="parent">
     </div>
     <Page/>
     </>
