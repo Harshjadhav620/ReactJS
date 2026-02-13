@@ -9,7 +9,7 @@ function App () {
       <div className="card">
           <div className="top">
            <img src="https://www.pngplay.com/wp-content/uploads/3/Amazon-Logo-Transparent-PNG.png" alt="Amazon Logo" />
-           <button>Save <CiBookmark /></button>
+           <button>Save <CiBookmark size={12} /></button>
           </div>  
 
           <div className="center">

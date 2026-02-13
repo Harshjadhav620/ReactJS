@@ -23,6 +23,9 @@ body {
     background-color: white;
     border-radius: 30px;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .card .top {
     display: flex;
@@ -40,5 +43,20 @@ body {
     border-radius: 5px;
     padding: 4px 8px;
     border: 1px solid #dadada;
+    font-size: 11px;
+    gap: 3px;
+    background-color: transparent;
+    color: #b1b1b1;
+}
+.center {
+    background-color: red;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #dadada;
+    padding-top: 15px;
 }
 
