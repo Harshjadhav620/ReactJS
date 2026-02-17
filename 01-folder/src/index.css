@@ -48,9 +48,7 @@ body {
     background-color: transparent;
     color: #b1b1b1;
 }
-.center {
-    background-color: red;
-}
+
 
 .bottom {
     display: flex;
