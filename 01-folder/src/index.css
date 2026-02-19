@@ -49,6 +49,22 @@ body {
     color: #b1b1b1;
 }
 
+.center {
+    text-align: center;
+    padding: 10px;   
+}
+.center h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+.center h3 span {
+    font-size: 10px;
+    font-weight: 400;
+    color: #8b8b8b;
+}
+.center h2 {
+    font-size: 21px;
+}
 
 .bottom {
     display: flex;
