@@ -7,7 +7,8 @@ function App () {
   return (
     <div className="parent">
       <div className="card">
-          <div className="top">
+          <div>
+            <div className="top">
            <img src="https://www.pngplay.com/wp-content/uploads/3/Amazon-Logo-Transparent-PNG.png" alt="Amazon Logo" />
            <button>Save <CiBookmark size={12} /></button>
           </div>  
@@ -19,6 +20,7 @@ function App () {
               <h4>Part-time</h4>
               <h4>senior-level</h4>
             </div>
+          </div>
           </div>
 
           <div className="bottom">
