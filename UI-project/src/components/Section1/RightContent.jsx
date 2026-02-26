@@ -1,9 +1,11 @@
 import React from 'react'
 import 'remixicon/fonts/remixicon.css'
+import RightCard from './RightCard'
 
 const RightContent = () => {
   return (
-    <div className='bg-blue-600 h-full w-2/3'>
+    <div className='bg-blue-200 h-full w-2/3 p-6'>
+      <RightCard/>
     </div>
   )
 }
