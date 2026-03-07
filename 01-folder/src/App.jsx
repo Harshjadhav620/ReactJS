@@ -1,18 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const App = () => {
   
-  let a = 20;
+  const [num, setNum] = useState(10)
+  const [user, setUser] = useState("Harsh")
 
-  function changeA (){
-    console.log(a);
-    a++;
-    console.log(a)
+  function ChangeNumUser() {
+    setNum(20)
+    setUser("Aman")
   }
+
   return (
     <div>
-      <h1>Value is {a}</h1>
-      <button onClick={changeA}> Click</button>
+      <h1>Value of num is {num} <br /> Value of user is {user}</h1>
+      <button onClick={ChangeNumUser}> Click</button>
     </div>
   )
 }
