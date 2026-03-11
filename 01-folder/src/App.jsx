@@ -13,7 +13,7 @@ const App = () => {
   }
 
   function jump5Num() {
-    setNum(num+5)
+    setNum(num+6)
   }
 
 
@@ -22,7 +22,7 @@ const App = () => {
       <h1>{num}</h1>
       <button onClick={increaseNum}>Increase</button>
       <button onClick={decreaseNum}>Decrease</button>
-       <button onClick={jump5Num}>Increase 5</button>
+       <button onClick={jump5Num}>Increase 6</button>
     </div>
   )
 }
