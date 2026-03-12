@@ -1,8 +1,18 @@
 import React from 'react'
 
 const App = () => {
+
+  const submitHandler = ()=> {
+    console.log('Form submitted')
+  }
+
   return (
-    <div>App</div>
+    <div>
+      <form onSubmit={submitHandler}>
+        <input type="text" placeholder='Enter your name' />
+        <button>Submit!</button>
+      </form>
+    </div>
   )
 }
 
