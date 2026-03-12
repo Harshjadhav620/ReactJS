@@ -4,16 +4,16 @@ const App = () => {
 
   const [num, setNum] = useState(0)
 
-  function increaseNum() {
+  const increaseNum = ()=>  {
     setNum(num+1)
   }
 
-  function decreaseNum() {
+  const decreaseNum = ()=> {
     setNum(num-1)
   }
 
-  function jump5Num() {
-    setNum(num+6)
+  const jump5Num = ()=> {
+    setNum(num+5)
   }
 
 
@@ -22,7 +22,7 @@ const App = () => {
       <h1>{num}</h1>
       <button onClick={increaseNum}>Increase</button>
       <button onClick={decreaseNum}>Decrease</button>
-       <button onClick={jump5Num}>Increase 6</button>
+       <button onClick={jump5Num}>Increase 5</button>
     </div>
   )
 }
